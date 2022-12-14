@@ -1,0 +1,25 @@
+@import "./fonts";
+@import "./variables";
+
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../../src/sass/modules/body";
+@import "../../src/sass/modules/footer";
+@import "../../src/sass/modules/header";
+@import "../../src/sass/modules/infobar";
+@import "../../src/sass/modules/navbar";
+@import "../../src/sass/modules/pageContact";
+@import "../../src/sass/modules/s1Quatre";
+@import "../../src/sass/modules/s2AboutUs";
+@import "../../src/sass/modules/s3OurServices";
+@import "../../src/sass/modules/s4WhyChooseUs";
+@import "../../src/sass/modules/s5OurProjects";
+@import "../../src/sass/modules/s6FreeQuote";
+@import "../../src/sass/modules/s7TeamMembers";
+@import "../../src/sass/modules/s8Testimonial";
