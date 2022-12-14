@@ -1,16 +1,51 @@
 .entete{
-
+    width: 100%;
 }
-//
-
+p{
+    color: red;
+}
 
 .infobar{
-
+    height:36px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .infobar-left{
-
+    height:100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
 }
 .infobar-right{
-    
+    height:100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.icon-infobar{
+    width: 10px;
+    height: auto;
+}
+.space-txt-infobar{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.box-reseaux-infobar{
+    width:22px;
+    height:22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.reseaux-infobar{
+    width: 11px;
+    height: auto;
+}
+.box-reseaux-infobar:hover{
+    border:3px solid #ab7442;
 }
