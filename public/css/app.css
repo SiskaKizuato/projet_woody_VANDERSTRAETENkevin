@@ -22298,3 +22298,14 @@ p {
   text-align: left;
   margin-right: 139px;
 }
+
+@media screen and (max-width: 376px) {
+  .section4-choose {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

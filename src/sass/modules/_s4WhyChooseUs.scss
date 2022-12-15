@@ -35,3 +35,14 @@
     text-align: left;
     margin-right: 139px;
 }
+
+//RESPONSIVE//
+    //MOBILE M//
+@media screen and (max-width: 376px){
+    .section4-choose{
+        height: fit-content;
+        flex-direction: column;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+}
