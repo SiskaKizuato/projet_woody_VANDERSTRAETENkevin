@@ -35,14 +35,38 @@
     text-align: left;
     margin-right: 139px;
 }
+.container-s4{
+    padding-left: 45px;
+}
 
 //RESPONSIVE//
     //MOBILE M//
 @media screen and (max-width: 376px){
     .section4-choose{
-        height: fit-content;
+        height: 650px;
         flex-direction: column;
-        padding-top:20px;
-        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    .s4-left-part{
+        height: 50%;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    .s4-right-part{
+        height: 50%;
+        width: 100%;
+    }
+    .why{
+        text-align: left;
+        margin-right: 42px;
+    }
+    .container-s4-left{
+        margin-left: 160px;
+        position: relative;
+    }
+    .container-s4-right{
+        position: absolute;
+        margin-left: 20px;
     }
 }
