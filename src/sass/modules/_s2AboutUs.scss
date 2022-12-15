@@ -59,7 +59,7 @@
     .section2-aboutus{
         flex-direction: column;
         width:100%;
-        height: 500px;
+        height: 650px;
     }
     .s2-part-left{
         height: 50%;
@@ -78,5 +78,9 @@
         align-items: left;
         justify-content: center;
         padding-left: 30px;
+        padding-right:30px;
+    }
+    br{
+        display: none;
     }
 }
