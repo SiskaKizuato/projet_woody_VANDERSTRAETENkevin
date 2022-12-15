@@ -21564,7 +21564,7 @@ a {
 }
 
 .txt-black {
-  color: black;
+  color: rgba(0, 0, 0, 0.82);
 }
 
 .txt-grey {
@@ -21596,11 +21596,17 @@ a {
 }
 
 .fs-bignumber {
-  font-size: 12px;
+  font-size: 52px;
 }
 
-.fs-subtitles {
+.fs-subtitles-l {
+  font-size: 15px;
+}
+
+.fs-subtitles-s {
   font-size: 12px;
+  letter-spacing: 0px;
+  font-weight: bold;
 }
 
 .fs-txt {
@@ -21613,6 +21619,28 @@ a {
 
 .fs-lilnumber {
   font-size: 12px;
+}
+
+.fs-molen {
+  font-size: 20px;
+}
+
+.fs-nav {
+  font-size: 10.5px;
+  color: rgba(0, 0, 0, 0.667);
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+
+.fs-nav:hover {
+  color: #ab7442;
+}
+
+.fs-nav-white {
+  font-size: 11px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0px;
 }
 
 .entete {
@@ -21923,4 +21951,109 @@ p {
     justify-content: center;
     align-items: center;
   }
+}
+.navbar {
+  width: 100%;
+  height: 50px;
+  padding-left: 2.5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container-btn-nav {
+  display: flex;
+  height: 100%;
+}
+
+.btn-nav {
+  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 0px;
+  padding-right: 17px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.contact-btn {
+  display: flex;
+}
+
+.down-arrow-nav {
+  margin-left: 4px;
+  padding-top: 3px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.667);
+}
+
+.quote-flex {
+  display: flex;
+}
+
+.btn-bronze-nav {
+  height: 100%;
+  width: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 14px;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+
+.section1-quatre {
+  width: 100%;
+  height: 220px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-quatre {
+  display: flex;
+  border: 1px solid red;
+  height: 40%;
+  width: 67.5%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.box-sup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  border: 1px solid green;
+}
+
+.box-inf {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  border: 1px solid blue;
+}
+
+.fontawesome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 21px;
+}
+
+.box-quatre {
+  height: 100%;
+  width: 25%;
 }
