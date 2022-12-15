@@ -44,3 +44,22 @@
     width: 50%;
     border: 1px solid darkgreen;
 }
+
+
+
+//RESPONSIVE//
+    //MOBILE M//
+@media screen and (max-width: 376px){
+    .section7-teammembers{
+        width:100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .container-s7{
+        width: 90%;
+        height: 90%;
+    }
+}
