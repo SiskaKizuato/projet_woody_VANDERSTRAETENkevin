@@ -21958,6 +21958,7 @@ p {
   padding-left: 2.5%;
   padding-top: 0;
   padding-bottom: 0;
+  border: 1px solid green;
 }
 
 .container-btn-nav {
@@ -21975,7 +21976,6 @@ p {
   display: flex;
   justify-content: left;
   align-items: center;
-  border: 1px solid black;
   border-radius: 0;
 }
 
@@ -22020,6 +22020,62 @@ p {
   border-radius: 0;
 }
 
+@media screen and (max-width: 376px) {
+  .navbar {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-left: 0;
+  }
+  .container-btn-nav {
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+  }
+  .molengeek {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+  }
+  .btn-nav {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ab7442;
+  }
+  .btn-bronze-nav {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fs-molen {
+    font-size: 25px;
+    position: relative;
+  }
+  .rectangle-molen {
+    position: absolute;
+    z-index: -1;
+    border: 1.4px solid rgba(171, 117, 66, 0.4078431373);
+    width: 59px;
+    left: 26.8%;
+    height: 70px;
+  }
+  .fs-nav {
+    font-size: 12px;
+  }
+}
 .section1-quatre {
   width: 100%;
   height: 220px;
@@ -22069,4 +22125,36 @@ p {
 .box-quatre {
   height: 100%;
   width: 25%;
+}
+
+@media screen and (max-width: 376px) {
+  .section1-quatre {
+    width: 100%;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .container-quatre {
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    gap: 0px;
+  }
+  .box-quatre {
+    width: 100%;
+  }
+  .txt-changement {
+    color: white;
+    padding-left: 2px;
+  }
+  .box-sup {
+    padding-left: 3px;
+  }
+  .box-inf {
+    background-color: #ab7442;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
 }

@@ -44,3 +44,33 @@
     height: 100%;
     width: 25%;    
 }
+
+//RESPONSIVE
+//MOBLIE M
+@media screen and (max-width: 376px){
+    .section1-quatre{
+        width: 100%;
+        flex-direction: column;
+        height:fit-content;
+    }
+    .container-quatre{
+        flex-direction: column;
+        height: fit-content;
+        gap: 0px;
+    }
+    .box-quatre{
+        width: 100%;
+    }
+    .txt-changement{
+        color: white;
+        padding-left: 2px;
+    }
+    .box-sup{
+        padding-left: 3px;
+    }
+    .box-inf{
+        background-color: #ab7442;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
