@@ -22231,6 +22231,7 @@ p {
     flex-direction: column;
     width: 100%;
     height: 650px;
+    overflow: hidden;
   }
   .s2-part-left {
     height: 50%;
