@@ -1,0 +1,46 @@
+.section7-teammembers{
+    width:100%;
+    height: 450px;
+    border: 1px solid  purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.container-s7{
+    width: 66%;
+    height: 78%;
+    border: 1px solid violet;
+}
+.s7-part-sup{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+}
+.s7-part-inf{
+    width: 100%;
+    height: 78%;
+    border: 1px solid black;
+    display: flex;
+    gap: 17px;
+}
+.container-s7-box-left{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 1px solid green;
+    gap: 17px;
+}
+.container-s7-box-right{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 1px solid red;
+    gap: 17px;
+}
+.s7-box{
+    height: 100%;
+    width: 50%;
+    border: 1px solid darkgreen;
+}
