@@ -21592,7 +21592,9 @@ a {
 }
 
 .fs-title {
-  font-size: 12px;
+  font-size: 32px;
+  letter-spacing: -1.2px;
+  font-weight: bold;
 }
 
 .fs-bignumber {
@@ -21610,7 +21612,7 @@ a {
 }
 
 .fs-txt {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .fs-infobar {
@@ -21618,7 +21620,7 @@ a {
 }
 
 .fs-lilnumber {
-  font-size: 12px;
+  font-size: 22px;
 }
 
 .fs-molen {
@@ -22157,4 +22159,67 @@ p {
     padding-top: 3px;
     padding-bottom: 3px;
   }
+}
+.section2-aboutus {
+  width: 100%;
+  height: 355px;
+  display: flex;
+  border: 1px solid blue;
+}
+
+.s2-part-left {
+  height: 100%;
+  width: 50%;
+  border: 1px solid pink;
+  background-image: url("../../../public/img/about.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.s2-part-right {
+  height: 100%;
+  width: 50%;
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.s2-jc-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.aboutus-marginb {
+  margin-bottom: 15px;
+}
+
+.container-s2-nbr {
+  display: flex;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.box-nbr-s2 {
+  display: flex;
+}
+
+.container-nbr-s {
+  padding-left: 12px;
+  margin-right: 85px;
+}
+
+.btn-s2 {
+  height: 39px;
+  width: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s2-icon-mt {
+  margin-top: 6px;
 }
