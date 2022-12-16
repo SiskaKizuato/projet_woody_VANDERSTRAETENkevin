@@ -22911,7 +22911,6 @@ p {
 .s3-ourservices {
   width: 100%;
   height: 760px;
-  border: 1px solid orange;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22920,7 +22919,6 @@ p {
 .container-s3 {
   height: 85%;
   width: 67%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22930,7 +22928,6 @@ p {
 .s3-up-part {
   width: 100%;
   height: 8%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -22940,7 +22937,6 @@ p {
   width: 100%;
   height: 92%;
   display: flex;
-  border: 1px solid green;
   gap: 15px;
 }
 
@@ -22950,7 +22946,6 @@ p {
 }
 
 .s3-container-left {
-  border: 1px solid black;
   height: 100%;
   width: 33.33%;
   display: flex;
@@ -22959,7 +22954,6 @@ p {
 }
 
 .s3-container-mid {
-  border: 1px solid black;
   height: 100%;
   width: 33.33%;
   display: flex;
@@ -22968,7 +22962,6 @@ p {
 }
 
 .s3-container-right {
-  border: 1px solid black;
   height: 100%;
   width: 33.33%;
   display: flex;
@@ -22979,23 +22972,19 @@ p {
 .s3-box-up {
   height: 50%;
   width: 100%;
-  border: 1px solid black;
 }
 
 .s3-box-down {
   height: 50%;
   width: 100%;
-  border: 1px solid black;
 }
 
 .s3-img {
-  border: 1px solid blue;
   width: 100%;
   height: 55%;
 }
 
 .s3-txt {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23047,7 +23036,6 @@ p {
     gap: 0px;
   }
   .s3-container-left {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23055,7 +23043,6 @@ p {
     gap: 0px;
   }
   .s3-container-mid {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23063,7 +23050,6 @@ p {
     gap: 0px;
   }
   .s3-container-right {
-    border: 1px solid black;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -23077,12 +23063,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
   }
   .s3-box-down {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
   }
   .s3-txt {
     padding-left: 0px;
@@ -23112,7 +23096,6 @@ p {
     gap: 0px;
   }
   .s3-container-left {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23120,7 +23103,6 @@ p {
     gap: 0px;
   }
   .s3-container-mid {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23128,7 +23110,6 @@ p {
     gap: 0px;
   }
   .s3-container-right {
-    border: 1px solid black;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -23142,12 +23123,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
   }
   .s3-box-down {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
   }
   .s3-txt {
     padding-left: 0px;
@@ -23177,7 +23156,6 @@ p {
     gap: 0px;
   }
   .s3-container-left {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23185,7 +23163,6 @@ p {
     gap: 0px;
   }
   .s3-container-mid {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23193,7 +23170,6 @@ p {
     gap: 0px;
   }
   .s3-container-right {
-    border: 1px solid black;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -23207,12 +23183,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
   }
   .s3-box-down {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
   }
   .s3-txt {
     padding-left: 0px;
