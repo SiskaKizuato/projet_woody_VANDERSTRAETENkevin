@@ -122,11 +122,17 @@
         height: 27px;
         width: 27px;
         position: absolute;
-        top: 165px;
-        left: 127px;
+        top: 387px;
+        left: 324px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .text-carousel{
+        margin-bottom:40px;
+    }
+    .fs-header{
+        font-size: 33px;
     }
     .carousel-control-next{
         border:1.5px solid white;
@@ -134,8 +140,8 @@
         height: 27px;
         width: 27px;
         position: absolute;
-        top: 165px;
-        right: 127px;
+        top: 387px;
+        right: 324px;
     }
     header{
         margin-top:20px;

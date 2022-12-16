@@ -22045,11 +22045,17 @@ footer {
     height: 27px;
     width: 27px;
     position: absolute;
-    top: 165px;
-    left: 127px;
+    top: 387px;
+    left: 324px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .text-carousel {
+    margin-bottom: 40px;
+  }
+  .fs-header {
+    font-size: 33px;
   }
   .carousel-control-next {
     border: 1.5px solid white;
@@ -22057,8 +22063,8 @@ footer {
     height: 27px;
     width: 27px;
     position: absolute;
-    top: 165px;
-    right: 127px;
+    top: 387px;
+    right: 324px;
   }
   header {
     margin-top: 20px;
@@ -23474,6 +23480,10 @@ p {
     height: fit-content;
     flex-direction: column;
   }
+  .s5-mid-part {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
   .container-s5 {
     height: 85%;
     width: 85%;
@@ -23533,6 +23543,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     flex-direction: column;
+  }
+  .s5-mid-part {
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   .container-s5 {
     height: 85%;
@@ -23597,6 +23611,10 @@ p {
   .container-s5 {
     height: 85%;
     width: 85%;
+  }
+  .s5-mid-part {
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   .s5-down-part {
     width: 100%;
