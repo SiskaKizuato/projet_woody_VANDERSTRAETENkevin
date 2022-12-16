@@ -22608,7 +22608,6 @@ p {
 .section1-quatre {
   width: 100%;
   height: 220px;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22616,7 +22615,6 @@ p {
 
 .container-quatre {
   display: flex;
-  border: 1px solid red;
   height: 40%;
   width: 67.5%;
   align-items: center;
@@ -22630,7 +22628,6 @@ p {
   align-items: center;
   width: 100%;
   height: 70%;
-  border: 1px solid green;
 }
 
 .box-inf {
@@ -22639,7 +22636,6 @@ p {
   align-items: center;
   width: 100%;
   height: 30%;
-  border: 1px solid blue;
 }
 
 .fontawesome {
