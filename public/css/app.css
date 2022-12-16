@@ -21560,7 +21560,7 @@ a {
 }
 
 .txt-dark {
-  color: rgba(48, 48, 48, 0.7254901961);
+  color: rgba(48, 48, 48, 0.7764705882);
 }
 
 .txt-black {
@@ -22747,6 +22747,85 @@ p {
     height: 200px;
   }
 }
+.section6-freequote {
+  border: 1px solid black;
+  width: 100%;
+  height: 435px;
+  display: flex;
+}
+
+.s6-left-part {
+  height: 100%;
+  width: 50%;
+  background-image: url("../../../public/img/quote.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.s6-right-part {
+  height: 100%;
+  width: 50%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.s6-txt-marg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-s6-form {
+  border: 1px red solid;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 400px;
+}
+
+.formulaire {
+  border: 1px solid green;
+  width: 100%;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.s6-row {
+  border: 1px solid blue;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  gap: 10px;
+}
+
+.s6-col {
+  height: 100%;
+  width: 50%;
+  border: 1px solid green;
+}
+
+.input-note {
+  width: 100%;
+  height: 100%;
+}
+
+.input-50 {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-s6 {
+  height: 100%;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .section7-teammembers {
   width: 100%;
   height: 450px;
