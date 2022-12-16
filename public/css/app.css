@@ -23647,7 +23647,6 @@ p {
   }
 }
 .section6-freequote {
-  border: 1px solid black;
   width: 100%;
   height: 435px;
   display: flex;
@@ -23676,7 +23675,6 @@ p {
 }
 
 .container-s6-form {
-  border: 1px red solid;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -23684,7 +23682,6 @@ p {
 }
 
 .formulaire {
-  border: 1px solid green;
   width: 100%;
   height: 185px;
   display: flex;
@@ -23693,7 +23690,6 @@ p {
 }
 
 .s6-row {
-  border: 1px solid blue;
   width: 100%;
   height: 25%;
   display: flex;
@@ -23703,7 +23699,6 @@ p {
 .s6-col {
   height: 100%;
   width: 50%;
-  border: 1px solid green;
 }
 
 .input-note {
