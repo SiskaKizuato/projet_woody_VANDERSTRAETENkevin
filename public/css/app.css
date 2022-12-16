@@ -21733,6 +21733,22 @@ footer {
   padding-bottom: 3px;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+
+.d-flex-footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link:hover {
+  color: #ab7442;
+  letter-spacing: 2px;
+}
+
 .entete {
   width: 100%;
 }

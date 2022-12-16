@@ -65,3 +65,16 @@ footer{
     border-bottom: 1px solid white;
     padding-bottom: 3px;
 }
+.footer-link{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.d-flex-footer{
+    display: flex;
+    align-items: center;
+}
+.footer-link:hover{
+    color: #ab7442;
+    letter-spacing: 2px;
+}
