@@ -21674,7 +21674,22 @@ footer {
   border: 1px solid white;
 }
 
+.footer-up-part {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.footer-col {
+  height: 100%;
+  width: 25%;
+  border: 1px solid lightcoral;
+}
+
 .footer-down-part {
+  width: 100%;
+  height: 20%;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.096);
   display: flex;
   align-items: center;
   justify-content: space-between;
