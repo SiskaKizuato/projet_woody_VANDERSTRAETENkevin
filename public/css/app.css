@@ -22154,7 +22154,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
   .fs-infobar {
     font-size: 10px;
@@ -22232,7 +22231,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
   .fs-infobar {
     font-size: 11px;
@@ -22310,7 +22308,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
   .fs-infobar {
     font-size: 11px;
