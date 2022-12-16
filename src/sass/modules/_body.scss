@@ -22,7 +22,7 @@ a{
     color: #ab7442;
 }
 .txt-dark{
-    color: #303030;
+    color: #303030b9;
 }
 .txt-black{
     color: rgba(0, 0, 0, 0.781);
@@ -65,6 +65,11 @@ a{
     //TALL//
 .fs-subtitles-s{
     font-size: 12px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+.fs-subtitles-s5{
+    font-size: 13px;
     letter-spacing: 0px;
     font-weight: bold;
 }
