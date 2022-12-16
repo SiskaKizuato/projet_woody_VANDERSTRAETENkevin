@@ -21664,7 +21664,6 @@ a {
 footer {
   width: 100%;
   height: 280px;
-  border: 1px solid green;
   background-image: url("../../../public/img/footer.jpg");
   background-size: cover;
   display: flex;
@@ -21675,7 +21674,6 @@ footer {
 .container-footer {
   height: 80%;
   width: 69%;
-  border: 1px solid white;
 }
 
 .footer-up-part {
@@ -21721,7 +21719,6 @@ footer {
   width: 25%;
   display: flex;
   flex-direction: column;
-  border: 1px solid lightcoral;
 }
 
 .footer-down-part {
@@ -21800,7 +21797,6 @@ footer {
   .container-footer {
     height: 80%;
     width: 69%;
-    border: 1px solid white;
   }
   .container-footer {
     height: -webkit-fit-content;
@@ -21819,7 +21815,6 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid lightcoral;
   }
   .title-footer {
     text-align: center;
@@ -21844,7 +21839,6 @@ footer {
   .container-footer {
     height: 80%;
     width: 69%;
-    border: 1px solid white;
   }
   .container-footer {
     height: -webkit-fit-content;
@@ -21863,7 +21857,6 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid lightcoral;
   }
   .title-footer {
     text-align: center;
@@ -21888,7 +21881,6 @@ footer {
   .container-footer {
     height: 80%;
     width: 69%;
-    border: 1px solid white;
   }
   .container-footer {
     height: -webkit-fit-content;
@@ -21907,7 +21899,6 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid lightcoral;
   }
   .title-footer {
     text-align: center;
