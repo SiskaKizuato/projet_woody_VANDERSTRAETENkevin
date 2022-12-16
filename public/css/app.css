@@ -23151,6 +23151,7 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     flex-direction: column;
+    margin-top: 10px;
   }
   .container-s3 {
     height: 85%;
@@ -23160,21 +23161,21 @@ p {
     width: 100%;
     height: 92%;
     flex-direction: column;
-    gap: 0px;
+    gap: 5px;
   }
   .s3-container-left {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 5px;
   }
   .s3-container-mid {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 5px;
   }
   .s3-container-right {
     height: -webkit-fit-content;
@@ -23183,7 +23184,7 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 5px;
   }
   .s3-box-up {
     height: -webkit-fit-content;
@@ -23201,7 +23202,7 @@ p {
     padding-bottom: 10px;
   }
   .s3-img {
-    height: 200px;
+    height: 400px;
   }
 }
 .section4-choose {
