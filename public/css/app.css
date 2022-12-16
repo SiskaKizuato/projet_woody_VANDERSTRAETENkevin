@@ -23826,7 +23826,6 @@ p {
 .section7-teammembers {
   width: 100%;
   height: 450px;
-  border: 1px solid purple;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23836,7 +23835,6 @@ p {
 .container-s7 {
   width: 66%;
   height: 78%;
-  border: 1px solid violet;
 }
 
 .s7-part-sup {
@@ -23849,7 +23847,6 @@ p {
 .s7-part-inf {
   width: 100%;
   height: 78%;
-  border: 1px solid black;
   display: flex;
   gap: 17px;
 }
@@ -23858,7 +23855,6 @@ p {
   display: flex;
   height: 100%;
   width: 50%;
-  border: 1px solid green;
   gap: 17px;
 }
 
@@ -23866,18 +23862,15 @@ p {
   display: flex;
   height: 100%;
   width: 50%;
-  border: 1px solid red;
   gap: 17px;
 }
 
 .s7-box {
   height: 100%;
   width: 50%;
-  border: 1px solid darkgreen;
 }
 
 .s7-img-part-a {
-  border: 1px solid black;
   width: 100%;
   height: 75%;
   background-image: url("../../../public/img/team-1.jpg");
@@ -23885,7 +23878,6 @@ p {
 }
 
 .s7-img-part-b {
-  border: 1px solid black;
   width: 100%;
   height: 75%;
   background-image: url("../../../public/img/team-2.jpg");
@@ -23893,7 +23885,6 @@ p {
 }
 
 .s7-img-part-c {
-  border: 1px solid black;
   width: 100%;
   height: 75%;
   background-image: url("../../../public/img/team-3.jpg");
@@ -23901,7 +23892,6 @@ p {
 }
 
 .s7-img-part-d {
-  border: 1px solid blue;
   width: 100%;
   height: 75%;
   background-image: url("../../../public/img/team-4.jpg");
@@ -23955,7 +23945,6 @@ p {
   .container-s7-box-right {
     height: 50%;
     width: 100%;
-    border: 1px solid red;
     gap: 17px;
   }
 }
@@ -23994,7 +23983,6 @@ p {
   .container-s7-box-right {
     height: 50%;
     width: 100%;
-    border: 1px solid red;
     gap: 17px;
   }
 }
@@ -24033,7 +24021,6 @@ p {
   .container-s7-box-right {
     height: 50%;
     width: 100%;
-    border: 1px solid red;
     gap: 17px;
   }
 }
