@@ -22682,6 +22682,71 @@ p {
   margin-bottom: 3px;
 }
 
+@media screen and (max-width: 376px) {
+  .s5-ourprojects {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .container-s5 {
+    height: 85%;
+    width: 85%;
+  }
+  .s5-down-part {
+    width: 100%;
+    height: 92%;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .s5-container-left {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .s5-container-mid {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .s5-container-right {
+    border: 1px solid black;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .s5-box-up {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .s5-box-down {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .s5-txt {
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .s5-img {
+    height: 200px;
+  }
+}
 .section7-teammembers {
   width: 100%;
   height: 450px;
