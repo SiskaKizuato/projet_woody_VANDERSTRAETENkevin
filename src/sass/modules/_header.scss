@@ -114,3 +114,30 @@
         margin-top:20px;
     }
 }
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    .carousel-control-prev{
+        border:1.5px solid white;
+        padding: 3px;
+        height: 27px;
+        width: 27px;
+        position: absolute;
+        top: 165px;
+        left: 127px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-control-next{
+        border:1.5px solid white;
+        padding: 3px;
+        height: 27px;
+        width: 27px;
+        position: absolute;
+        top: 165px;
+        right: 127px;
+    }
+    header{
+        margin-top:20px;
+    }
+}
