@@ -21663,6 +21663,15 @@ footer {
   border: 1px solid green;
   background-image: url("../../../public/img/footer.jpg");
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container-footer {
+  height: 80%;
+  width: 69%;
+  border: 1px solid white;
 }
 
 .entete {
