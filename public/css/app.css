@@ -22883,3 +22883,20 @@ p {
     gap: 17px;
   }
 }
+.section8-testimonial {
+  border: 1px solid black;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 40px;
+}
+
+.container-s8 {
+  width: 66%;
+  height: 92%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
