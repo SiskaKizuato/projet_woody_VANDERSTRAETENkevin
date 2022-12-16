@@ -23333,7 +23333,6 @@ p {
 .s5-ourprojects {
   width: 100%;
   height: 900px;
-  border: 1px solid orange;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23342,7 +23341,6 @@ p {
 .container-s5 {
   height: 85%;
   width: 67%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23352,7 +23350,6 @@ p {
 .s5-up-part {
   width: 100%;
   height: 7%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -23361,7 +23358,6 @@ p {
 .s5-mid-part {
   width: 100%;
   height: 5%;
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23372,7 +23368,6 @@ p {
   width: 100%;
   height: 88%;
   display: flex;
-  border: 1px solid green;
   gap: 15px;
 }
 
@@ -23387,7 +23382,6 @@ p {
 }
 
 .s5-container-left {
-  border: 1px solid black;
   height: 100%;
   width: 33.33%;
   display: flex;
@@ -23396,7 +23390,6 @@ p {
 }
 
 .s5-container-mid {
-  border: 1px solid black;
   height: 100%;
   width: 33.33%;
   display: flex;
@@ -23405,7 +23398,6 @@ p {
 }
 
 .s5-container-right {
-  border: 1px solid black;
   height: 100%;
   width: 33.33%;
   display: flex;
@@ -23416,23 +23408,19 @@ p {
 .s5-box-up {
   height: 50%;
   width: 100%;
-  border: 1px solid black;
 }
 
 .s5-box-down {
   height: 50%;
   width: 100%;
-  border: 1px solid black;
 }
 
 .s5-img {
-  border: 1px solid blue;
   width: 100%;
   height: 70%;
 }
 
 .s5-txt {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23497,7 +23485,6 @@ p {
     gap: 0px;
   }
   .s5-container-left {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23505,7 +23492,6 @@ p {
     gap: 0px;
   }
   .s5-container-mid {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23513,7 +23499,6 @@ p {
     gap: 0px;
   }
   .s5-container-right {
-    border: 1px solid black;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -23527,12 +23512,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
   }
   .s5-box-down {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
   }
   .s5-txt {
     padding-left: 0px;
@@ -23562,7 +23545,6 @@ p {
     gap: 0px;
   }
   .s5-container-left {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23570,7 +23552,6 @@ p {
     gap: 0px;
   }
   .s5-container-mid {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23578,7 +23559,6 @@ p {
     gap: 0px;
   }
   .s5-container-right {
-    border: 1px solid black;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -23592,12 +23572,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
   }
   .s5-box-down {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
   }
   .s5-txt {
     padding-left: 0px;
@@ -23627,7 +23605,6 @@ p {
     gap: 0px;
   }
   .s5-container-left {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23635,7 +23612,6 @@ p {
     gap: 0px;
   }
   .s5-container-mid {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     display: flex;
@@ -23643,7 +23619,6 @@ p {
     gap: 0px;
   }
   .s5-container-right {
-    border: 1px solid black;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -23657,12 +23632,10 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: 1px solid black;
   }
   .s5-box-down {
     height: 100%;
     width: 100%;
-    border: 1px solid black;
   }
   .s5-txt {
     padding-left: 0px;
