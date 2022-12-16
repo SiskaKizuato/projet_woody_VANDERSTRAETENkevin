@@ -13,11 +13,11 @@ footer{
     width: 69%;
     border: 1px solid white;
 }
-
 .footer-up-part{
     width: 100%;
     height: 80%;
     display: flex;
+    flex-direction: row;
 }
 .title-footer{
     margin-bottom: 15px;
@@ -111,3 +111,45 @@ footer{
     transform: translateX(2px);
     font-size: 12px;
 }
+
+@media screen and (max-width:376px) {
+    footer{
+        width: 100%;
+        height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container-footer{
+        height: 80%;
+        width: 69%;
+        border: 1px solid white;
+    }
+    .container-footer{
+        height: fit-content;
+        width: 85%;
+    }
+    .footer-up-part{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-col{
+        height: 100%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    
+        border: 1px solid lightcoral;
+    }
+    .title-footer{
+        text-align: center;
+    }
+    .footer-down-part{
+        width: 100%;
+        height: 50px;   
+    }
+    .footer-mb{
+        margin-bottom: 10px;
+    }
+}    

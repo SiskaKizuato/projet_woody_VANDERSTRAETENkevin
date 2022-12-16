@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./public/css/app.css">
     <title>Woody</title>
 </head>
+
 <body>
     <section class="entete"> <!-- not section1, contains the infobar, navbar and the header -->
         <div class="infobar bg-grey">
@@ -36,7 +40,8 @@
             <div class="infobar-right fs-infobar">
                 <div class="separation-responsive-infobar">
                     <div>
-                        <img src="./public/img/icons/phonebronze.png" class="reseaux-infobar phone-responsive" alt="phone">
+                        <img src="./public/img/icons/phonebronze.png" class="reseaux-infobar phone-responsive"
+                            alt="phone">
                     </div>
                     <div>
                         <p class="txt-dark space-txt-infobar">+012 345 6789</p>
@@ -45,18 +50,22 @@
                 <div class="container-reseaux">
                     <div class="reseaux-responsive">
                         <div class="box-reseaux-infobar bg-white">
-                            <a href="https://fr-fr.facebook.com/"><img src="./public/img/icons/facebookbronze.png" class="reseaux-infobar" alt="facebook"></a>
+                            <a href="https://fr-fr.facebook.com/"><img src="./public/img/icons/facebookbronze.png"
+                                    class="reseaux-infobar" alt="facebook"></a>
                         </div>
                         <div class="box-reseaux-infobar bg-white">
-                            <a href="https://twitter.com/?lang=fr"><img src="./public/img/icons/twitterbronze.png" class="reseaux-infobar" alt="twitter"></a>
+                            <a href="https://twitter.com/?lang=fr"><img src="./public/img/icons/twitterbronze.png"
+                                    class="reseaux-infobar" alt="twitter"></a>
                         </div>
                     </div>
                     <div class="reseaux-responsive">
                         <div class="box-reseaux-infobar bg-white">
-                            <a href="https://fr.linkedin.com/"><img src="./public/img/icons/linkedinbronze.png" class="reseaux-infobar" alt="linkedin"></a>
+                            <a href="https://fr.linkedin.com/"><img src="./public/img/icons/linkedinbronze.png"
+                                    class="reseaux-infobar" alt="linkedin"></a>
                         </div>
                         <div class="box-reseaux-infobar bg-white">
-                            <a href="https://www.instagram.com/?hl=fr"><img src="./public/img/icons/instagrambronze.png" class="reseaux-infobar" alt="instagram"></a>
+                            <a href="https://www.instagram.com/?hl=fr"><img src="./public/img/icons/instagrambronze.png"
+                                    class="reseaux-infobar" alt="instagram"></a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +98,8 @@
                     </a>
                 </div>
                 <div class="btn-group">
-                    <button class="btn btn-nav fs-nav dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES <i class="fa-solid fa-angle-down down-arrow-nav"></i></button>
+                    <button class="btn btn-nav fs-nav dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">PAGES <i class="fa-solid fa-angle-down down-arrow-nav"></i></button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item fs-nav" href="#">Feature</a></li>
                         <li><a class="dropdown-item fs-nav" href="#">Free Quote</a></li>
@@ -106,13 +116,70 @@
                 <div class="bg-bronze btn-bronze-nav">
                     <a href="" class="quote-flex">
                         <p class="fs-nav-white">Get A Quote</p>
-                        <i class="fa-solid fa-arrow-right txt-white arrow"></i> 
+                        <i class="fa-solid fa-arrow-right txt-white arrow"></i>
                     </a>
                 </div>
             </div>
         </nav>
         <header>
-            
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./public/img/carousel-1.jpg" class="d-block w-100 filtre-header" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-carousel">
+                            <p class="txt-white fs-subtitles-l header-mb"><b>WELCOME TO WOODY</b></p>
+                            <p class="txt-white fs-header header-mb"><b>Best Carpenter & Craftsman<br>Services</b></p>
+                            <p class="txt-white fs-txt-header header-mb"><b>Vero elitr clita lorem. Ipsum dolor at sed stet sit diam ni. Kasd rebum ipsum et diam<br>justo clita rebum sea elitr</b></p>
+                            <div class="flex-btn-header header-mb">
+                                <button class="btn-s2 bg-bronze fs-txt btn-border"><a href="" class="btn-left txt-white"><b>Read More</b></a></button>
+                                <button class="btn-s2 bg-white txt-black fs-txt btn-border"><a href="" class="btn-right"><b>Free Quote</b></a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./public/img/carousel-2.jpg" class="d-block w-100 filtre-header" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-carousel">
+                            <p class="txt-white fs-subtitles-l header-mb"><b>WELCOME TO WOODY</b></p>
+                            <p class="txt-white fs-header header-mb"><b>Best Carpenter & Craftsman<br>Services</b></p>
+                            <p class="txt-white fs-txt-header header-mb"><b>Vero elitr clita lorem. Ipsum dolor at sed stet sit diam ni. Kasd rebum ipsum et diam<br>justo clita rebum sea elitr</b></p>
+                            <div class="flex-btn-header header-mb">
+                                <button class="btn-s2 bg-bronze fs-txt btn-border"><a href="" class="btn-left txt-white"><b>Read More</b></a></button>
+                                <button class="btn-s2 bg-white txt-black fs-txt btn-border"><a href="" class="btn-right"><b>Free Quote</b></a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./public/img/carousel-3.jpg" class="d-block w-100 filtre-header" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-carousel">
+                            <p class="txt-white fs-subtitles-l header-mb"><b>WELCOME TO WOODY</b></p>
+                            <p class="txt-white fs-header header-mb"><b>Best Carpenter & Craftsman<br>Services</b></p>
+                            <p class="txt-white fs-txt-header header-mb"><b>Vero elitr clita lorem. Ipsum dolor at sed stet sit diam ni. Kasd rebum ipsum et diam<br>justo clita rebum sea elitr</b></p>
+                            <div class="flex-btn-header header-mb">
+                                <button class="btn-s2 bg-bronze fs-txt btn-border"><a href="" class="btn-left txt-white"><b>Read More</b></a></button>
+                                <button class="btn-s2 bg-white txt-black fs-txt btn-border"><a href="" class="btn-right"><b>Free Quote</b></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </header>
     </section>
 
@@ -175,13 +242,15 @@
 
     <section class="section2-aboutus">
         <div class="s2-part-left">
-            
+
         </div>
         <div class="s2-part-right bg-grey">
             <div class="s2-jc-left aboutus-marginb">
                 <p class="fs-title txt-black"><b>About Us __</b></p>
             </div>
-            <p class="fs-txt txt-dark">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet<br>diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat<br>amet</p>
+            <p class="fs-txt txt-dark">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                amet<br>diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat<br>amet
+            </p>
             <div class="container-s2-nbr">
                 <div class="box-nbr-s2">
                     <div class="fontawesome bg-white  s2-icon-mt">
@@ -202,10 +271,10 @@
                     </div>
                 </div>
             </div>
-            <div class="btn-s2 bg-bronze">
-                <a href="" class="txt-white fs-txt"><b>Explore More</b></a>
+            <div class="btn-s2 bg-bronze btn-left">
+                <a href="" class="txt-white fs-txt a-explore"><b>Explore More</b></a>
             </div>
-        </div>        
+        </div>
     </section>
 
     <section class="s3-ourservices">
@@ -221,7 +290,8 @@
                         </div>
                         <div class="s3-txt">
                             <p class="txt-black fs-subtitles-s3">General Carpentry</p>
-                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam lorem diam.</p>
+                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam
+                                lorem diam.</p>
                             <div class="s3-read-more">
                                 <a href="" class="s3-read-link">
                                     <p class="txt-bronze fs-txt"><b>Read More</b></p>
@@ -237,7 +307,8 @@
                         </div>
                         <div class="s3-txt">
                             <p class="txt-black fs-subtitles-s3">Wooden Floor</p>
-                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam lorem diam.</p>
+                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam
+                                lorem diam.</p>
                             <div class="s3-read-more">
                                 <a href="" class="s3-read-link">
                                     <p class="txt-bronze fs-txt"><b>Read More</b></p>
@@ -255,7 +326,8 @@
                         </div>
                         <div class="s3-txt">
                             <p class="txt-black fs-subtitles-s3">Furniture Manufacturing</p>
-                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam lorem diam.</p>
+                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam
+                                lorem diam.</p>
                             <div class="s3-read-more">
                                 <a href="" class="s3-read-link">
                                     <p class="txt-bronze fs-txt"><b>Read More</b></p>
@@ -271,7 +343,8 @@
                         </div>
                         <div class="s3-txt">
                             <p class="txt-black fs-subtitles-s3">Wooden Furniture</p>
-                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam lorem diam.</p>
+                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam
+                                lorem diam.</p>
                             <div class="s3-read-more">
                                 <a href="" class="s3-read-link">
                                     <p class="txt-bronze fs-txt"><b>Read More</b></p>
@@ -289,7 +362,8 @@
                         </div>
                         <div class="s3-txt">
                             <p class="txt-black fs-subtitles-s3">Furniture Remodeling</p>
-                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam lorem diam.</p>
+                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam
+                                lorem diam.</p>
                             <div class="s3-read-more">
                                 <a href="" class="s3-read-link">
                                     <p class="txt-bronze fs-txt"><b>Read More</b></p>
@@ -305,7 +379,8 @@
                         </div>
                         <div class="s3-txt">
                             <p class="txt-black fs-subtitles-s3">Custom Work</p>
-                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam lorem diam.</p>
+                            <p class="txt-dark fs-txt s3-marg-txt">Stet stet justo duo. Ut clita sea sit<br>ipsum diam
+                                lorem diam.</p>
                             <div class="s3-read-more">
                                 <a href="" class="s3-read-link">
                                     <p class="txt-bronze fs-txt"><b>Read More</b></p>
@@ -325,7 +400,9 @@
             <div class="s2-jc-left aboutus-marginb">
                 <p class="fs-title txt-black why"><b>Why Choose Us __</b></p>
             </div>
-            <p class="fs-txt txt-dark">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet<br>diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat<br>amet</p>
+            <p class="fs-txt txt-dark">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                amet<br>diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat<br>amet
+            </p>
             <div class="container-s2-nbr container-s4">
                 <div class="box-nbr-s4 container-s4-left">
                     <div class="box-nbr-s2-s4">
@@ -349,7 +426,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="box-nbr-s4 container-s4-right">
                     <div class="box-nbr-s2">
                         <div class="fontawesome bg-white">
@@ -373,7 +450,7 @@
             </div>
         </div>
         <div class="s4-right-part">
-            
+
         </div>
     </section>
 
@@ -451,7 +528,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="section6-freequote">
         <div class="s6-left-part">
 
@@ -459,7 +536,9 @@
         <div class="s6-right-part bg-grey">
             <div class="container-s6-form">
                 <p class="txt-black fs-title"><b>Free Quote __</b></p>
-                <p class="txt-dark fs-txt s6-txt-marg">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet<br>diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                <p class="txt-dark fs-txt s6-txt-marg">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                    Aliqu diam amet<br>diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
+                    erat amet</p>
                 <div class="formulaire">
                     <div class="s6-row">
                         <div class="s6-col">
@@ -537,7 +616,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="section8-testimonial">
         <div class="container-s8">
             <div>
@@ -649,7 +728,8 @@
             </div>
             <div class="footer-down-part">
                 <div>
-                    <p class="txt-white fs-txt">© <span class="footer-underline">Your Site Name</span>, All Right Reserved.</p>
+                    <p class="txt-white fs-txt">© <span class="footer-underline">Your Site Name</span>, All Right
+                        Reserved.</p>
                 </div>
                 <div>
                     <p class="txt-white fs-txt">Designed By <span class="footer-underline">Kad</span></p>
@@ -658,9 +738,12 @@
         </div>
     </footer>
 
-    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
 
 <!-- 
@@ -671,5 +754,3 @@
 <i class="fa-solid fa-users"></i>
 <i class="fa-solid fa-arrow-right"></i> 
 -->
-
-
