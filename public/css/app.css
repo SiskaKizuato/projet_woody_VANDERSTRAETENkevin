@@ -21674,6 +21674,17 @@ footer {
   border: 1px solid white;
 }
 
+.footer-down-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-underline {
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+}
+
 .entete {
   width: 100%;
 }
