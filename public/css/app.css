@@ -21617,6 +21617,12 @@ a {
   font-weight: bold;
 }
 
+.fs-subtitles-s3 {
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
 .fs-txt {
   font-size: 11px;
 }
@@ -22368,38 +22374,23 @@ p {
   height: 45%;
 }
 
-.folio1 {
-  background-image: url("../../../public/img/portfolio-1.jpg");
-  background-size: cover;
-}
-
-.folio2 {
-  background-image: url("../../../public/img/portfolio-2.jpg");
-  background-size: cover;
-}
-
-.folio3 {
-  background-image: url("../../../public/img/portfolio-3.jpg");
-  background-size: cover;
-}
-
-.folio4 {
-  background-image: url("../../../public/img/portfolio-4.jpg");
-  background-size: cover;
-}
-
-.folio5 {
-  background-image: url("../../../public/img/portfolio-5.jpg");
-  background-size: cover;
-}
-
-.folio6 {
-  background-image: url("../../../public/img/portfolio-6.jpg");
-  background-size: cover;
-}
-
 .s3-space {
   margin-bottom: 3px;
+}
+
+.s3-read-link {
+  display: flex;
+  align-items: center;
+}
+
+.s3-vide-arrow {
+  height: 0;
+  width: 4px;
+}
+
+.s3-marg-txt {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .section4-choose {
